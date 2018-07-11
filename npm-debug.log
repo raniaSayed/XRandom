@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'link' ]
+2 info using npm@3.5.2
+3 info using node@v6.11.4
+4 verbose linkPkg /home/rania/Downloads/xrandom
+5 silly gentlyRm /usr/local/lib/node_modules/xrandom is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/xrandom
+7 silly vacuum-fs purging /usr/local/lib/node_modules/xrandom
+8 silly vacuum-fs quitting because other entries in /usr/local/lib/node_modules
+9 verbose link build target /usr/local/lib/node_modules/xrandom
+10 silly loadCurrentTree Starting
+11 silly install loadCurrentTree
+12 silly install readLocalPackageData
+13 silly install normalizeTree
+14 silly loadCurrentTree Finishing
+15 silly loadIdealTree Starting
+16 silly install loadIdealTree
+17 silly cloneCurrentTree Starting
+18 silly install cloneCurrentTreeToIdealTree
+19 silly cloneCurrentTree Finishing
+20 silly loadShrinkwrap Starting
+21 silly install loadShrinkwrap
+22 silly loadShrinkwrap Finishing
+23 silly loadAllDepsIntoIdealTree Starting
+24 silly install loadAllDepsIntoIdealTree
+25 silly loadAllDepsIntoIdealTree Finishing
+26 silly idealTree:prePrune xrandom@0.0.2
+27 silly loadIdealTree Finishing
+28 silly currentTree xrandom@0.0.2
+29 silly idealTree xrandom@0.0.2
+30 silly generateActionsToTake Starting
+31 silly install generateActionsToTake
+32 silly generateActionsToTake Finishing
+33 silly diffTrees action count 0
+34 silly decomposeActions action count 0
+35 silly executeActions Starting
+36 silly install executeActions
+37 silly doSerial global-install 0
+38 silly doParallel fetch 0
+39 verbose lock using /home/rania/.npm/_locks/staging-33c5b0b93d75e3d2.lock for /home/rania/Downloads/xrandom/node_modules/.staging
+40 silly doParallel extract 0
+41 silly doParallel preinstall 0
+42 silly doReverseSerial remove 0
+43 silly doSerial move 0
+44 silly doSerial finalize 0
+45 silly doSerial build 0
+46 silly doSerial global-link 0
+47 silly doParallel update-linked 0
+48 silly doSerial install 0
+49 silly doSerial postinstall 0
+50 verbose unlock done using /home/rania/.npm/_locks/staging-33c5b0b93d75e3d2.lock for /home/rania/Downloads/xrandom/node_modules/.staging
+51 silly executeActions Finishing
+52 silly rollbackFailedOptional Starting
+53 silly rollbackFailedOptional Finishing
+54 silly runTopLevelLifecycles Starting
+55 silly install runTopLevelLifecycles
+56 silly preinstall xrandom@0.0.2 /home/rania/Downloads/xrandom/xrandom-3d52d064
+57 info lifecycle xrandom@0.0.2~preinstall: xrandom@0.0.2
+58 silly lifecycle xrandom@0.0.2~preinstall: no script for preinstall, continuing
+59 silly build xrandom@0.0.2
+60 info linkStuff xrandom@0.0.2
+61 silly linkStuff xrandom@0.0.2 has /home/rania/Downloads as its parent node_modules
+62 verbose linkBins xrandom@0.0.2
+63 verbose linkMans xrandom@0.0.2
+64 silly install xrandom@0.0.2 /home/rania/Downloads/xrandom/xrandom-3d52d064
+65 info lifecycle xrandom@0.0.2~install: xrandom@0.0.2
+66 silly lifecycle xrandom@0.0.2~install: no script for install, continuing
+67 silly postinstall xrandom@0.0.2 /home/rania/Downloads/xrandom/xrandom-3d52d064
+68 info lifecycle xrandom@0.0.2~postinstall: xrandom@0.0.2
+69 silly lifecycle xrandom@0.0.2~postinstall: no script for postinstall, continuing
+70 silly prepublish xrandom@0.0.2 /home/rania/Downloads/xrandom/xrandom-3d52d064
+71 info lifecycle xrandom@0.0.2~prepublish: xrandom@0.0.2
+72 silly lifecycle xrandom@0.0.2~prepublish: no script for prepublish, continuing
+73 silly runTopLevelLifecycles Finishing
+74 silly install printInstalled
+75 warn xrandom@0.0.2 No repository field.
+76 info build /usr/local/lib/node_modules/xrandom
+77 info linkStuff xrandom@0.0.2
+78 silly linkStuff xrandom@0.0.2 has /usr/local/lib/node_modules as its parent node_modules
+79 silly linkStuff xrandom@0.0.2 is part of a global install
+80 silly linkStuff xrandom@0.0.2 is installed into a global node_modules
+81 silly linkStuff xrandom@0.0.2 is installed into the top-level global node_modules
+82 verbose linkBins xrandom@0.0.2
+83 verbose link bins [ { xrandom: 'app.js' }, '/usr/local/bin', true ]
+84 verbose linkMans xrandom@0.0.2
+85 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/xrandom/app.js'
+85 verbose stack     at Error (native)
+86 verbose cwd /home/rania/Downloads/xrandom
+87 error Linux 4.13.0-46-generic
+88 error argv "/usr/bin/node" "/usr/bin/npm" "link"
+89 error node v6.11.4
+90 error npm  v3.5.2
+91 error path /usr/local/lib/node_modules/xrandom/app.js
+92 error code ENOENT
+93 error errno -2
+94 error syscall chmod
+95 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/xrandom/app.js'
+96 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/xrandom/app.js'
+96 error enoent This is most likely not a problem with npm itself
+96 error enoent and is related to npm not being able to find a file.
+97 verbose exit [ -2, true ]

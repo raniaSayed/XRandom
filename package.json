@@ -1,0 +1,16 @@
+{
+  "name": "xrandom",
+  "version": "0.0.2",
+  "preferGlobal": true,
+  "description": "this command generate random number between 1, 100",
+  "main": "app.js",
+
+  "bin": {
+    "xrandom":"app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rania Sayed",
+  "license": "ISC"
+}
