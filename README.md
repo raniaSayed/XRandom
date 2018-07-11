@@ -1,6 +1,6 @@
 
-<h2>Nodejs CLI</h2>
-NodeJS CLI XRandom is a command that generate random numbers in ubuntu command line, and it can be installed from npm public registery using npm install xrandom
+<h2>Nodejs XRandom CLI</h2>
+NodeJS XRandom CLI is a command that generate random numbers in ubuntu command line, and it can be installed from npm public registery using npm install xrandom
 
 
 <h2>Getting Started</h2>
